@@ -32,7 +32,7 @@
 # 데이터셋
 1. 기업제공 데이터
  - 공유자동차 예약이력 데이터, 공유자동차 운행이력 데이터
- ![캡처](images\Raw_data.png)
+![Raw_data](https://user-images.githubusercontent.com/93418123/216225665-18e2af3b-ed72-4e8e-acf7-7322f33c95ac.png)
 2. 외부 데이터
  - 국토정보플랫폼 - 국토정보맵에서 제공하는, 수도권의 500m 격자 단위 지리정보 데이터
  ![캡처](images\Geo_data.png)
