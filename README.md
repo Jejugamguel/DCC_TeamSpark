@@ -22,11 +22,11 @@
 ```
 ├─ data
 └─ DCC_TeamSpark
-	├─ notebook_pre
+    ├─ notebook_pre
     ├─ notebook_geo
     ├─ notebook_train
     ├─ notebook_markov
-	└─ notebook_appendix
+    └─ notebook_appendix
 ```	
 
 # 데이터셋
@@ -35,10 +35,10 @@
 ![Raw_data](https://user-images.githubusercontent.com/93418123/216225665-18e2af3b-ed72-4e8e-acf7-7322f33c95ac.png)
 2. 외부 데이터
  - 국토정보플랫폼 - 국토정보맵에서 제공하는, 수도권의 500m 격자 단위 지리정보 데이터
- ![캡처](images\Geo_data.png)
+![Geo_data](https://user-images.githubusercontent.com/93418123/216225908-03dccce2-22d4-4abe-a2ec-9dfcbc986026.png)
  - 공공데이터포털 - 국토교통부_전국버스정류장위치정보 데이터
  - 1차 가공된 수도권 지하철역 데이터
- ![캡처](images\Trans_data.png)
+![Trans_data](https://user-images.githubusercontent.com/93418123/216225939-a7e83c5b-69d1-4f7c-9fa7-833e7744417f.png)
 
 
 &nbsp;
@@ -70,12 +70,12 @@
 - RandomForest
     - GridSearchCV와 Manual Search 기법을 활용하여 RandomForest 모델에 알맞는 Hyperparameter를 탐색
     - 공유자동차 예약 여부를 예측하는 데 가장 높은 성능을 기록
- ![캡처](images\RandomForest.png)
+![RandomForest](https://user-images.githubusercontent.com/93418123/216225875-d1d15ab5-5882-4c8c-8477-6cc75c41d891.PNG)
 
 - Markov Clustering
     - 격자 영역마다 운행의 시작과 끝이 발생한 비율을 활용하여 행렬을 생성
     - 해당 행렬에 Markov Chain을 적용하고, 경향성이 짙은 영역 (=운행비율이 높은 지역)이 두드러지도록 정규화 작업 적용
- ![캡처](images\MarkovClustering.png)
+![MarkovClustering](https://user-images.githubusercontent.com/93418123/216225913-5f690039-3ba0-46b5-9b6c-bb6792f89280.png)
 
 &nbsp;
 
