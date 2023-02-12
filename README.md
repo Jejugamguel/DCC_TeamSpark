@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=ff6a00&text=교통상황과%20환경개선을%20위한%20공유자동차%20서비스%20활성화%20방안%20제안&fontSize=26&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=rect&color=ff6a00&text=교통상황과%20환경%20개선을%20위한%20공유자동차%20서비스%20활성화%20방안&fontSize=26&fontColor=ffffff)
 <div align="left">
 	<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white" />
 	<img src="https://img.shields.io/badge/Sklearn-F7931E?style=flat&logo=scikit-learn&logoColor=white" />
@@ -70,11 +70,13 @@
 - RandomForest
     - GridSearchCV와 Manual Search 기법을 활용하여 RandomForest 모델에 알맞는 Hyperparameter를 탐색
     - 공유자동차 예약 여부를 예측하는 데 가장 높은 성능을 기록
+    
 ![RandomForest](https://user-images.githubusercontent.com/93418123/216225875-d1d15ab5-5882-4c8c-8477-6cc75c41d891.PNG)
 
 - Markov Clustering
     - 격자 영역마다 운행의 시작과 끝이 발생한 비율을 활용하여 행렬을 생성
     - 해당 행렬에 Markov Chain을 적용하고, 경향성이 짙은 영역 (=운행비율이 높은 지역)이 두드러지도록 정규화 작업 적용
+    
 ![MarkovClustering](https://user-images.githubusercontent.com/93418123/216225913-5f690039-3ba0-46b5-9b6c-bb6792f89280.png)
 
 &nbsp;
